@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2e2e2e"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ai_cse_fifthsem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_buttons"
+                android:backgroundTint="#FFFFFF">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_above="@id/text2"
+                    android:layout_marginTop="5dp"
+                    android:layerType="software"
+                    android:src="@drawable/dotted_line" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/caviardreams_bolditalic"
+                    android:text="Unit - 1 "
+                    android:textColor="#02706F"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/upload_status_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/button1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="--- No File Selected ---"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/productsans"
+                    android:text="Problem Solving and Search"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="Choose file"
+                    android:textColor="@color/black"
+                    app:neumorph_shadowColorDark="#8f8f8f"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin" />
+
+                <soup.neumorphism.NeumorphImageButton
+                    android:id="@+id/upload_1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/upload"
+                    app:neumorph_shadowColorDark="#8f8f8f"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/bg_buttons">
+
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="Choose file"
+                    android:textColor="@color/black"
+                    app:neumorph_shadowColorDark="#8f8f8f"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_above="@id/text4"
+                    android:layout_marginTop="5dp"
+                    android:layerType="software"
+                    android:src="@drawable/dotted_line" />
+
+                <soup.neumorphism.NeumorphImageButton
+                    android:id="@+id/upload_2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    app:neumorph_shadowColorDark="#8f8f8f"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin"
+                    android:src="@drawable/upload" />
+
+                <TextView
+                    android:id="@+id/upload_status_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/button2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="--- No File Selected ---"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/caviardreams_bolditalic"
+                    android:text="Unit - 2 "
+                    android:textColor="#02706F"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/productsans"
+                    android:text="Knowledge, Reasoning, and Planning"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/bg_buttons">
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Unit - 3 "
+                    android:fontFamily="@font/caviardreams_bolditalic"
+                    android:textStyle="bold"
+                    android:textColor="#02706F"
+                    android:textSize="30sp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/dotted_line"
+                    android:layout_above="@id/text6"
+                    android:layerType="software" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text5"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/productsans"
+                    android:text="Expert Systems, Reasoning with Uncertainity"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <soup.neumorphism.NeumorphImageButton
+                    android:id="@+id/upload_3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/upload"
+                    app:neumorph_shadowColorDark="#8f8f8f"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin" />
+
+                <TextView
+                    android:id="@+id/upload_status_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/button3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="--- No File Selected ---"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose file"
+                    android:textColor="@color/black"
+                    android:layout_alignParentBottom="true"
+                    app:neumorph_shadowColorDark="#8f8f8f"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/bg_buttons">
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Unit - 4 "
+                    android:fontFamily="@font/caviardreams_bolditalic"
+                    android:textStyle="bold"
+                    android:textColor="#02706F"
+                    android:textSize="30sp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/dotted_line"
+                    android:layout_above="@id/text8"
+                    android:layerType="software" />
+
+                <TextView
+                    android:id="@+id/text8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text7"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/productsans"
+                    android:text="Learning"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <soup.neumorphism.NeumorphImageButton
+                    android:id="@+id/upload_4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    app:neumorph_shadowColorDark="#8f8f8f"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin"
+                    android:src="@drawable/upload" />
+
+                <TextView
+                    android:id="@+id/upload_status_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/button4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="--- No File Selected ---"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="Choose file"
+                    android:textColor="@color/black"
+                    app:neumorph_shadowColorDark="#8f8f8f"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin" />
+            </RelativeLayout>
+        </RelativeLayout>
+     </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/bg_buttons">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_above="@id/text10"
+                    android:layout_marginTop="5dp"
+                    android:layerType="software"
+                    android:src="@drawable/dotted_line" />
+
+                <soup.neumorphism.NeumorphImageButton
+                    android:id="@+id/upload_5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    app:neumorph_shadowColorDark="#8f8f8f"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin"
+                    android:src="@drawable/upload" />
+
+                <TextView
+                    android:id="@+id/text10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text9"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/productsans"
+                    android:text="Communicating and Perceiving"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/caviardreams_bolditalic"
+                    android:text="Unit - 5 "
+                    android:textColor="#02706F"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/upload_status_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/button5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="--- No File Selected ---"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="Choose file"
+                    android:textColor="@color/black"
+                    app:neumorph_shadowColorDark="#8f8f8f"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="350dp">
+
+             <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginLeft="15dp"
+                 android:layout_marginTop="15dp"
+                 android:layout_marginRight="15dp"
+                 android:layout_marginBottom="15dp"
+                 android:background="@drawable/bg_buttons"
+                 android:backgroundTint="#FFFFFF">
+
+                 <ImageView
+                     android:layout_width="match_parent"
+                     android:layout_height="5dp"
+                     android:layout_above="@id/qp_text_2"
+                     android:layout_marginTop="5dp"
+                     android:layerType="software"
+                     android:src="@drawable/dotted_line" />
+
+                 <TextView
+                     android:id="@+id/qptext1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="true"
+                     android:layout_marginStart="10dp"
+                     android:layout_marginTop="10dp"
+                     android:layout_marginBottom="5dp"
+                     android:fontFamily="@font/caviardreams_bolditalic"
+                     android:text="Question Papers "
+                     android:textColor="#02706F"
+                     android:textSize="30sp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:id="@+id/qp_status_1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_above="@id/qp_button1"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginBottom="10dp"
+                     android:text="--- No File Selected ---"
+                     android:textColor="@color/black"
+                     android:textSize="18sp"
+                     android:textStyle="italic" />
+
+                 <TextView
+                     android:id="@+id/qp_text_2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/qptext1"
+                     android:layout_alignParentLeft="true"
+                     android:layout_marginStart="10dp"
+                     android:layout_marginTop="10dp"
+                     android:text="Upload File with year mentioned in the file name"
+                     android:textColor="@color/grey"
+                     android:textSize="20sp" />
+
+                 <soup.neumorphism.NeumorphButton
+                     android:id="@+id/qp_button1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentBottom="true"
+                     android:text="Choose file"
+                     android:textColor="@color/black"
+                     app:neumorph_shadowColorDark="#8f8f8f"
+                     app:neumorph_shadowColorLight="#FFFFFF"
+                     app:neumorph_shapeType="basin" />
+
+                 <soup.neumorphism.NeumorphImageButton
+                     android:id="@+id/qp_upload_1"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:layout_alignParentRight="true"
+                     android:layout_alignParentBottom="true"
+                     android:src="@drawable/upload"
+                     app:neumorph_shadowColorDark="#8f8f8f"
+                     app:neumorph_shadowColorLight="#FFFFFF"
+                     app:neumorph_shapeType="basin" />
+
+             </RelativeLayout>
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="350dp">
+
+             <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginLeft="15dp"
+                 android:layout_marginTop="15dp"
+                 android:layout_marginRight="15dp"
+                 android:layout_marginBottom="15dp"
+                 android:background="@drawable/bg_buttons"
+                 android:backgroundTint="#FFFFFF">
+
+                 <ImageView
+                     android:layout_width="match_parent"
+                     android:layout_height="5dp"
+                     android:layout_above="@id/syllabus_text_2"
+                     android:layout_marginTop="5dp"
+                     android:layerType="software"
+                     android:src="@drawable/dotted_line" />
+
+                 <TextView
+                     android:id="@+id/syllabus_text_1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="true"
+                     android:layout_marginStart="10dp"
+                     android:layout_marginTop="10dp"
+                     android:layout_marginBottom="5dp"
+                     android:fontFamily="@font/caviardreams_bolditalic"
+                     android:text="Syllabus "
+                     android:textColor="#02706F"
+                     android:textSize="30sp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:id="@+id/syllabus_status_1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_above="@id/syllabus_button_1"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginBottom="10dp"
+                     android:text="--- No File Selected ---"
+                     android:textColor="@color/black"
+                     android:textSize="18sp"
+                     android:textStyle="italic" />
+
+                 <TextView
+                     android:id="@+id/syllabus_text_2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/syllabus_text_1"
+                     android:layout_alignParentLeft="true"
+                     android:layout_marginStart="10dp"
+                     android:layout_marginTop="10dp"
+                     android:text="Upload Syllabus according to Curriculum"
+                     android:textColor="@color/grey"
+                     android:textSize="20sp" />
+
+                 <soup.neumorphism.NeumorphButton
+                     android:id="@+id/syllabus_button_1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentBottom="true"
+                     android:text="Choose file"
+                     android:textColor="@color/black"
+                     app:neumorph_shadowColorDark="#8f8f8f"
+                     app:neumorph_shadowColorLight="#FFFFFF"
+                     app:neumorph_shapeType="basin" />
+
+                 <soup.neumorphism.NeumorphImageButton
+                     android:id="@+id/syllabus_upload_1"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:layout_alignParentRight="true"
+                     android:layout_alignParentBottom="true"
+                     android:src="@drawable/upload"
+                     app:neumorph_shadowColorDark="#8f8f8f"
+                     app:neumorph_shadowColorLight="#FFFFFF"
+                     app:neumorph_shapeType="basin" />
+
+             </RelativeLayout>
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="350dp">
+
+             <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginLeft="15dp"
+                 android:layout_marginTop="15dp"
+                 android:layout_marginRight="15dp"
+                 android:layout_marginBottom="15dp"
+                 android:background="@drawable/bg_buttons"
+                 android:backgroundTint="#FFFFFF">
+
+                 <ImageView
+                     android:layout_width="match_parent"
+                     android:layout_height="5dp"
+                     android:layout_above="@id/miscellaneous_text_2"
+                     android:layout_marginTop="5dp"
+                     android:layerType="software"
+                     android:src="@drawable/dotted_line" />
+
+                 <TextView
+                     android:id="@+id/miscellaneous_text_1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="true"
+                     android:layout_marginStart="10dp"
+                     android:layout_marginTop="10dp"
+                     android:layout_marginBottom="5dp"
+                     android:fontFamily="@font/caviardreams_bolditalic"
+                     android:text="Miscellaneous "
+                     android:textColor="#02706F"
+                     android:textSize="30sp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:id="@+id/miscellaneous_status_1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_above="@id/miscellaneous_button_1"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginBottom="10dp"
+                     android:text="--- No File Selected ---"
+                     android:textColor="@color/black"
+                     android:textSize="18sp"
+                     android:textStyle="italic" />
+
+                 <TextView
+                     android:id="@+id/miscellaneous_text_2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/miscellaneous_text_1"
+                     android:layout_alignParentLeft="true"
+                     android:layout_marginStart="10dp"
+                     android:layout_marginTop="10dp"
+                     android:text="Upload Misc here"
+                     android:textColor="@color/grey"
+                     android:textSize="20sp" />
+
+                 <soup.neumorphism.NeumorphButton
+                     android:id="@+id/miscellaneous_button_1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentBottom="true"
+                     android:text="Choose file"
+                     android:textColor="@color/black"
+                     app:neumorph_shadowColorDark="#8f8f8f"
+                     app:neumorph_shadowColorLight="#FFFFFF"
+                     app:neumorph_shapeType="basin" />
+
+                 <soup.neumorphism.NeumorphImageButton
+                     android:id="@+id/miscellaneous_upload_1"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:layout_alignParentRight="true"
+                     android:layout_alignParentBottom="true"
+                     android:src="@drawable/upload"
+                     app:neumorph_shadowColorDark="#8f8f8f"
+                     app:neumorph_shadowColorLight="#FFFFFF"
+                     app:neumorph_shapeType="basin" />
+
+             </RelativeLayout>
+         </RelativeLayout>
+     </LinearLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

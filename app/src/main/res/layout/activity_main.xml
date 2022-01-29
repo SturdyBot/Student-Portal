@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292828"
+    tools:context=".MainActivity">
+
+
+        <soup.neumorphism.NeumorphImageView
+        android:id="@+id/mainlogo"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="300dp"
+        app:neumorph_lightSource="rightBottom"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ngit_main"
+        app:neumorph_shadowColorDark="#151414"
+        app:neumorph_shadowColorLight="#3d3c3c"/>
+
+
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/mainlogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/textview_border"
+        android:hint="Roll number (2453XXXXXXXX)"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:background="@drawable/textview_border"
+        android:hint="Password"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtUsername"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword" />
+
+    <soup.neumorphism.NeumorphImageButton
+        android:id="@+id/SignIn_button"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/edtPassword"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:src="@drawable/login"
+        app:neumorph_shadowColorDark="#151414"
+        app:neumorph_shadowColorLight="#3d3c3c" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/TeacherSignUp"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:clickable="true"
+        android:text="Are you a Teacher/Admin? - Login here! "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:neumorph_shadowColorDark="#151414"
+        app:neumorph_shadowColorLight="#3d3c3c" />
+
+</RelativeLayout>

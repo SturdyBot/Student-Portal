@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "79752847629",
+    "firebase_url": "https://ngit-student-portal-default-rtdb.firebaseio.com",
+    "project_id": "ngit-student-portal",
+    "storage_bucket": "ngit-student-portal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79752847629:android:75d8d96f6de6b8f1e79044",
+        "android_client_info": {
+          "package_name": "com.example.ngitstudentportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79752847629-o5u2uhk70ib8o4hqm646bud9lnlajl32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ngitstudentportal",
+            "certificate_hash": "40c62d2b1905bd21049d525ce5775af6ed418b89"
+          }
+        },
+        {
+          "client_id": "79752847629-r2drkm5h6td2ljv4klbhlcomcrbbgrqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGd34HENuPOzEqHRnCQx55lbmrZoqRX_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79752847629-r2drkm5h6td2ljv4klbhlcomcrbbgrqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

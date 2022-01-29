@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ngitstudentportal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NGITStudentPortal">
+        <activity
+            android:name=".MyRecyclerViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar"/>
+        <activity
+            android:name=".student_ai"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar"/>
+        <activity
+            android:name=".ai_bg"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar"/>
+        <activity
+            android:name=".student_wandit"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_sc"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_se"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_alc"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_os"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_fifthsem_upload_misc"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_fifthsem_upload_syllabus"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_fifthsem_upload_qpapers"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_fifthsem_upload_notes"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_third_year_4"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_third_year_3"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_third_year_2"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_third_year_1"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_cse_4"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_cse_3"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_cse_2"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_cse_1"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_cse_it_3"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_cse_it_2"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".student_cse_it_1"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".Student_CSE_IT"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".wandit_cse_fifthsem"
+            android:exported="false"
+            android:label="W and IT - 5th sem/3rd year"
+            android:theme="@style/Theme.Neumorph.DayNight.DarkActionBar.Bridge" />
+        <activity
+            android:name=".os_cse_fifthsem"
+            android:exported="false"
+            android:label="OS - 5th sem/3rd year"
+            android:theme="@style/Theme.Neumorph.DayNight.DarkActionBar.Bridge" />
+        <activity
+            android:name=".se_cse_fifthsem"
+            android:exported="false"
+            android:label="SE - 5th sem/3rd year"
+            android:theme="@style/Theme.Neumorph.DayNight.DarkActionBar.Bridge" />
+        <activity
+            android:name=".sc_cse_fifthsem"
+            android:exported="false"
+            android:label="SC - 5th sem/3rd year"
+            android:theme="@style/Theme.Neumorph.DayNight.DarkActionBar.Bridge" />
+        <activity
+            android:name=".alc_cse_fifthsem"
+            android:exported="false"
+            android:label="ALC - 5th sem/3rd year"
+            android:theme="@style/Theme.Neumorph.DayNight.DarkActionBar.Bridge" />
+        <activity
+            android:name=".cse_thirdyear"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".ai_cse_fifthsem"
+            android:exported="false"
+            android:label="AI - 5th sem/3rd year"
+            android:theme="@style/Theme.Neumorph.DayNight.DarkActionBar.Bridge" />
+        <activity
+            android:name=".it_fourthyear"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".it_thirdyear"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".it_secondyear"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".it_firstyear"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".cse_fourthyear"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".cse_fifthsem"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".cse_secondyear"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".cse_firstyear"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".years_it"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".years_cse"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".CSE_IT"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".StaffLogin"
+            android:exported="false"
+            android:label="Staff Login"
+            android:theme="@style/Theme.Neumorph.DayNight.DarkActionBar.Bridge" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".StaffHome"
+            android:exported="false"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false"
+            android:label="Student Registration"
+            android:theme="@style/Theme.Neumorph.DayNight.DarkActionBar.Bridge" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.NGITStudentPortal.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

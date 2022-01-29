@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#292828"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/signuplogo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/signuplogo" />
+
+    <EditText
+        android:id="@+id/edtMail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/signuplogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/textview_border"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtMail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/textview_border"
+        android:hint="Roll number (2453XXXXXXXX)"
+        android:textColor="@color/white"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/textview_border"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColorHint="@color/grey" />
+
+    <soup.neumorphism.NeumorphImageButton
+        android:id="@+id/Signup_button"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/edtPassword"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:src="@drawable/white_adduser"
+        android:textColor="@color/grey"
+        app:neumorph_shadowColorDark="#151414"
+        app:neumorph_shadowColorLight="#3d3c3c" />
+
+</RelativeLayout>

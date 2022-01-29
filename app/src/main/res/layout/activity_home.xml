@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#36454F"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.4"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <soup.neumorphism.NeumorphImageButton
+                android:id="@+id/student_logout"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/white_logout"
+                app:neumorph_shadowColorDark="#263037"
+                app:neumorph_shadowColorLight="#465a67" />
+
+            <TextView
+                android:id="@+id/staffhome_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/pacifico"
+                android:text="Student Dashboard "
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/student_dashboard_img"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/student_dashboard" />
+
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/student_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_menu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/student_layout_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/download_notes"
+                    android:fontFamily="@font/productsans"
+                    android:padding="15dp"
+                    android:text="Download Unit Wise Notes"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    app:neumorph_shadowColorDark="#c7c7c7"
+                    app:neumorph_shadowColorLight="#FFFFFF">
+
+                </soup.neumorphism.NeumorphButton>
+
+                <soup.neumorphism.NeumorphImageView
+                    android:id="@+id/download_notes"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/white_download_notes"
+                    app:neumorph_shadowColorDark="#c7c7c7"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/student_layout_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/download_qp"
+                    android:fontFamily="@font/productsans"
+                    android:padding="15dp"
+                    android:text="Download Question Papers"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    app:neumorph_shadowColorDark="#c7c7c7"
+                    app:neumorph_shadowColorLight="#FFFFFF">
+
+                </soup.neumorphism.NeumorphButton>
+
+                <soup.neumorphism.NeumorphImageView
+                    android:id="@+id/download_qp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/color_qpapers"
+                    app:neumorph_shadowColorDark="#c7c7c7"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/student_layout_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/download_syllabus"
+                    android:fontFamily="@font/productsans"
+                    android:padding="15dp"
+                    android:text="Download Syllabus - Sem"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    app:neumorph_shadowColorDark="#c7c7c7"
+                    app:neumorph_shadowColorLight="#FFFFFF">
+
+                </soup.neumorphism.NeumorphButton>
+
+                <soup.neumorphism.NeumorphImageView
+                    android:id="@+id/download_syllabus"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/color_syllabus"
+                    app:neumorph_shadowColorDark="#c7c7c7"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/student_layout_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/download_misc"
+                    android:fontFamily="@font/productsans"
+                    android:padding="15dp"
+                    android:text="Download Additional Docs"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    app:neumorph_shadowColorDark="#c7c7c7"
+                    app:neumorph_shadowColorLight="#FFFFFF">
+
+                </soup.neumorphism.NeumorphButton>
+
+                <soup.neumorphism.NeumorphImageView
+                    android:id="@+id/download_misc"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/color_misc"
+                    app:neumorph_shadowColorDark="#c7c7c7"
+                    app:neumorph_shadowColorLight="#FFFFFF"
+                    app:neumorph_shapeType="basin" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

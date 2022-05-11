@@ -4,3 +4,7 @@ A simple and beginner level app representing Students and Staff, where Staff upl
 The app isn't totally developed and only a part of the app works with full functionality for representation purpose.
 
 ---> For any doubts regarding the project, consider reaching out :)
+
+Here are the screenshots of the application;
+
+![Images](Branch.jpg)

@@ -6,4 +6,4 @@ The app isn't totally developed and only a part of the app works with full funct
 ---> For any doubts regarding the project, consider reaching out :)
 
 Here are the screenshots of the application;
-![Optional Text](../master/Images/Branch.jpg)
+

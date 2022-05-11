@@ -7,4 +7,3 @@ The app isn't totally developed and only a part of the app works with full funct
 
 Here are the screenshots of the application;
 
-![Images](Branch.jpg)
